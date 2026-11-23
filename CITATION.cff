@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Smart Sizing of Workplace EV Charging Stations Using Real Data and Simulation"
+version: "1.0"
+date-released: "2026-11-23"
+license: MIT
+authors:
+  - family-names: "Khalid"
+    given-names: "Ahmed"
+    affiliation: "Department of Industrial Engineering, Faculty of Engineering, Islamic University of Madinah"
+  - family-names: "Bakhashwain"
+    given-names: "Hossam"
+    affiliation: "Department of Industrial Engineering, Faculty of Engineering, Islamic University of Madinah"
+  - family-names: "Al-Qarm"
+    given-names: "Ali"
+    affiliation: "Department of Industrial Engineering, Faculty of Engineering, Islamic University of Madinah"
+keywords: [discrete-event simulation, electric vehicles, EV charging, FlexSim, queueing, decision analysis]
+references:
+  - type: conference-paper
+    title: "ACN-Data: Analysis and Applications of an Open EV Charging Dataset"
+    authors:
+      - family-names: "Lee"
+        given-names: "Zachary J."
+      - family-names: "Li"
+        given-names: "Tongxin"
+      - family-names: "Low"
+        given-names: "Steven H."
+    year: 2019
+    conference:
+      name: "e-Energy '19"
+    doi: "10.1145/3307772.3328313"

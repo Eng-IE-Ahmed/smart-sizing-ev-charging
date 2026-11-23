@@ -1,0 +1,49 @@
+﻿AB        FAIL  KS p=0.044 (rev. def. 0.011) Welch {'cars': True, 'mean_occ': False, 'occ_1200': True, 'peak_occ': False}  RMSE 1.48  2s
+band      FAIL  KS p=0.162 (rev. def. 0.103) Welch {'cars': True, 'mean_occ': False, 'occ_1200': True, 'peak_occ': True}  RMSE 0.67  2s
+band_long PASS  KS p=0.206 (rev. def. 0.298) Welch {'cars': True, 'mean_occ': True, 'occ_1200': True, 'peak_occ': True}  RMSE 0.50  2s
+band_long_opt PASS  KS p=0.213 (rev. def. 0.240) Welch {'cars': True, 'mean_occ': True, 'occ_1200': True, 'peak_occ': True}  RMSE 0.66  2s
+mixA_lnB  FAIL  KS p=0.039 (rev. def. 0.010) Welch {'cars': True, 'mean_occ': False, 'occ_1200': True, 'peak_occ': False}  RMSE 1.50  5s
+jointGMM  FAIL  KS p=0.307 (rev. def. 0.217) Welch {'cars': True, 'mean_occ': False, 'occ_1200': True, 'peak_occ': True}  RMSE 0.54  7s
+      service                        test                                                  metric  model_mean  data_mean    diff      lo      hi    ok   stat      p
+           AB         Welch CI model-data                                                    cars     39.5438    39.6462 -0.1023 -1.3699  1.1653  True    NaN    NaN
+           AB         Welch CI model-data                                                mean_occ     10.3879    10.8833 -0.4954 -0.8456 -0.1452 False    NaN    NaN
+           AB         Welch CI model-data                                                occ_1200     23.6949    24.3692 -0.6744 -1.6333  0.2846  True    NaN    NaN
+           AB         Welch CI model-data                                                peak_occ     27.4187    28.3538 -0.9351 -1.8141 -0.0561 False    NaN    NaN
+           AB       KS 2-sample (primary)                     daily peak exact, 60 reps x 65 days     27.4187    28.3538     NaN     NaN     NaN False 0.1700 0.0440
+           AB KS 2-sample (reviewer def.)                 daily peak half-hour, 20 reps x 65 days     27.1162    28.0769     NaN     NaN     NaN False 0.2015 0.0113
+           AB                     profile RMSE of 48 half-hour means (model_mean/data_mean = max)     25.7672    27.2615     NaN     NaN     NaN   NaN 1.4827    NaN
+         band         Welch CI model-data                                                    cars     39.5438    39.6462 -0.1023 -1.3699  1.1653  True    NaN    NaN
+         band         Welch CI model-data                                                mean_occ     10.4086    10.8833 -0.4747 -0.8249 -0.1245 False    NaN    NaN
+         band         Welch CI model-data                                                occ_1200     23.9297    24.3692 -0.4395 -1.3983  0.5193  True    NaN    NaN
+         band         Welch CI model-data                                                peak_occ     27.8759    28.3538 -0.4779 -1.3573  0.4014  True    NaN    NaN
+         band       KS 2-sample (primary)                     daily peak exact, 60 reps x 65 days     27.8759    28.3538     NaN     NaN     NaN  True 0.1377 0.1617
+         band KS 2-sample (reviewer def.)                 daily peak half-hour, 20 reps x 65 days     27.6469    28.0769     NaN     NaN     NaN  True 0.1523 0.1028
+         band                     profile RMSE of 48 half-hour means (model_mean/data_mean = max)     26.3269    27.2615     NaN     NaN     NaN   NaN 0.6663    NaN
+    band_long         Welch CI model-data                                                    cars     39.5438    39.6462 -0.1023 -1.3699  1.1653  True    NaN    NaN
+    band_long         Welch CI model-data                                                mean_occ     11.0682    10.8833  0.1849 -0.1674  0.5373  True    NaN    NaN
+    band_long         Welch CI model-data                                                occ_1200     24.6169    24.3692  0.2477 -0.7118  1.2072  True    NaN    NaN
+    band_long         Welch CI model-data                                                peak_occ     28.5590    28.3538  0.2051 -0.6741  1.0844  True    NaN    NaN
+    band_long       KS 2-sample (primary)                     daily peak exact, 60 reps x 65 days     28.5590    28.3538     NaN     NaN     NaN  True 0.1308 0.2061
+    band_long KS 2-sample (reviewer def.)                 daily peak half-hour, 20 reps x 65 days     28.3269    28.0769     NaN     NaN     NaN  True 0.1215 0.2978
+    band_long                     profile RMSE of 48 half-hour means (model_mean/data_mean = max)     27.0010    27.2615     NaN     NaN     NaN   NaN 0.4990    NaN
+band_long_opt         Welch CI model-data                                                    cars     39.5438    39.6462 -0.1023 -1.3699  1.1653  True    NaN    NaN
+band_long_opt         Welch CI model-data                                                mean_occ     11.0726    10.8833  0.1892 -0.1627  0.5412  True    NaN    NaN
+band_long_opt         Welch CI model-data                                                occ_1200     24.4874    24.3692  0.1182 -0.8408  1.0772  True    NaN    NaN
+band_long_opt         Welch CI model-data                                                peak_occ     28.5331    28.3538  0.1792 -0.7009  1.0594  True    NaN    NaN
+band_long_opt       KS 2-sample (primary)                     daily peak exact, 60 reps x 65 days     28.5331    28.3538     NaN     NaN     NaN  True 0.1297 0.2134
+band_long_opt KS 2-sample (reviewer def.)                 daily peak half-hour, 20 reps x 65 days     28.2962    28.0769     NaN     NaN     NaN  True 0.1285 0.2396
+band_long_opt                     profile RMSE of 48 half-hour means (model_mean/data_mean = max)     27.0908    27.2615     NaN     NaN     NaN   NaN 0.6553    NaN
+     mixA_lnB         Welch CI model-data                                                    cars     39.5438    39.6462 -0.1023 -1.3699  1.1653  True    NaN    NaN
+     mixA_lnB         Welch CI model-data                                                mean_occ     10.3057    10.8833 -0.5777 -0.9278 -0.2275 False    NaN    NaN
+     mixA_lnB         Welch CI model-data                                                occ_1200     23.6746    24.3692 -0.6946 -1.6537  0.2645  True    NaN    NaN
+     mixA_lnB         Welch CI model-data                                                peak_occ     27.3815    28.3538 -0.9723 -1.8514 -0.0932 False    NaN    NaN
+     mixA_lnB       KS 2-sample (primary)                     daily peak exact, 60 reps x 65 days     27.3815    28.3538     NaN     NaN     NaN False 0.1726 0.0392
+     mixA_lnB KS 2-sample (reviewer def.)                 daily peak half-hour, 20 reps x 65 days     27.0977    28.0769     NaN     NaN     NaN False 0.2038 0.0100
+     mixA_lnB                     profile RMSE of 48 half-hour means (model_mean/data_mean = max)     25.7310    27.2615     NaN     NaN     NaN   NaN 1.4989    NaN
+     jointGMM         Welch CI model-data                                                    cars     39.5438    39.6462 -0.1023 -1.3699  1.1653  True    NaN    NaN
+     jointGMM         Welch CI model-data                                                mean_occ     10.3904    10.8833 -0.4929 -0.8433 -0.1425 False    NaN    NaN
+     jointGMM         Welch CI model-data                                                occ_1200     23.9426    24.3692 -0.4267 -1.3854  0.5321  True    NaN    NaN
+     jointGMM         Welch CI model-data                                                peak_occ     28.2279    28.3538 -0.1259 -1.0050  0.7532  True    NaN    NaN
+     jointGMM       KS 2-sample (primary)                     daily peak exact, 60 reps x 65 days     28.2279    28.3538     NaN     NaN     NaN  True 0.1185 0.3071
+     jointGMM KS 2-sample (reviewer def.)                 daily peak half-hour, 20 reps x 65 days     27.9977    28.0769     NaN     NaN     NaN  True 0.1315 0.2166
+     jointGMM                     profile RMSE of 48 half-hour means (model_mean/data_mean = max)     26.8072    27.2615     NaN     NaN     NaN   NaN 0.5442    NaN

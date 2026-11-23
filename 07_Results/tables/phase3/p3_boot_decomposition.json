@@ -1,0 +1,15 @@
+{
+ "P15_c45_grand_mean": 0.006509037106039557,
+ "P15_c45_boot_mean_2p5": 0.003954716425850651,
+ "P15_c45_boot_mean_97p5": 0.009708419157880588,
+ "var_simulation_per_rep": 2.1147396225351566e-05,
+ "var_between_boot_means": 2.3529050382416464e-06,
+ "var_input_component": 1.2955352269740682e-06,
+ "share_input_of_total_per_rep": 0.05772575787285663,
+ "share_boot_inputs_with_mean_P15_c45_gt_1pct": 0.02,
+ "cstar_distribution": {
+  "44": 13,
+  "45": 26,
+  "46": 11
+ }
+}

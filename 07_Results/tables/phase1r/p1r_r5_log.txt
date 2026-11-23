@@ -1,0 +1,21 @@
+﻿                                               test   value      p
+                                               days 65.0000    NaN
+                          mean arrivals per weekday 39.6462    NaN
+                                           variance 25.7010    NaN
+                                  mean Mon (n = 12) 39.9167    NaN
+                                  mean Tue (n = 13) 42.2308    NaN
+                                  mean Wed (n = 13) 41.6923    NaN
+                                  mean Thu (n = 13) 39.8462    NaN
+                                  mean Fri (n = 14) 34.9286    NaN
+                                    one-way ANOVA F  5.7228 0.0006
+                                   Kruskal-Wallis H 17.5262 0.0015
+                                  Levene (median) W  0.0295 0.9983
+                        index of dispersion s2/mean  0.6483    NaN
+           dispersion chi2 (df = n-1), lower-tail p 41.4886 0.0130
+           dispersion chi2 (df = n-1), upper-tail p 41.4886 0.9870
+            dispersion chi2 (df = n-1), two-sided p 41.4886 0.0260
+ within-DOW index of dispersion (pooled var / mean)  0.5005    NaN
+within-DOW dispersion chi2 (df = n-5), lower-tail p 30.0310 0.0004
+ within-DOW dispersion chi2 (df = n-5), two-sided p 30.0310 0.0009
+              lag-1 autocorrelation of daily counts  0.0330    NaN
+design day (Tue+Wed, 26 days): 41.962 arrivals/day vs pooled 39.646 (ratio 1.0584); peak slot 5.846 vs 5.108; slots with pooled rate > 0 but design-day rate 0: 1

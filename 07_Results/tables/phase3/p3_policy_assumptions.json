@@ -1,0 +1,15 @@
+{
+ "weekday": 2577,
+ "valid_pairs": 2490,
+ "invalid": 87,
+ "idle_share": 0.5671682347142961,
+ "pairs_per_band": [
+  228,
+  1012,
+  409,
+  453,
+  323,
+  65
+ ],
+ "note": "Pairs = weekday sessions with a valid doneChargingTime (charge_h > 0 and done <= disconnect), incl. stays > 24 h; pools by arrival band sorted by dwell; same CRN uniform U2 as band_long. Policy behaviour (moving the car within g minutes, a 4-h cap, independent compliance with probability p) is an ASSUMPTION, not observed in the data."
+}

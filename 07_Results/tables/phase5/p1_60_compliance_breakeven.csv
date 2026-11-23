@@ -1,0 +1,3 @@
+m,saving_at_0,saving_at_25,saving_at_50,saving_at_75,saving_at_100,purchase_equivalent_chargers,compliance_for_saving_equal_purchase,compliance_for_saving_of_1,saving_zero_at,method
+1.3,0,4.0,7.0,9.0,11.0,6.0,0.417,0.062,0% compliance (by construction; every simulated level >= 25% saves >= 4 chargers),linear interpolation of stored savings; 0% = no policy; no new runs
+1.6,0,5.0,9.0,12.0,13.0,6.0,0.312,0.05,0% compliance (by construction; every simulated level >= 25% saves >= 4 chargers),linear interpolation of stored savings; 0% = no policy; no new runs

@@ -1,0 +1,8 @@
+Object current = ownerobject(c);
+/* D4-B2: next arrival time from the Cars table (engine inversion or engine trace); none after the last car */
+Table cars = Table("Cars");
+int k = current.nextCar + 1;
+if (k > cars.numRows)
+	return 1000000000;
+current.nextCar = k;
+return cars[k][1] - Model.time;

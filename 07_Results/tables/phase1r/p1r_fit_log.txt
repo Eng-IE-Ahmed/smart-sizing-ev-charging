@@ -1,0 +1,19 @@
+gaps n=2512 zeros=2 mean=0.9835
+206 bootstrap tasks x 500 resamples, 15 workers
+          input    n    best_BIC best_family  best_family_AD  best_family_AD_p  best_family_KS_p  best_family_chi2_p                             accepted         accepted_single_family
+           gaps 2512 expon_rate1       expon        1.227834          0.067864          0.033932        5.120460e-01       expon_rate1;exponweib;gengamma expon_rate1;exponweib;gengamma
+          svc_A 1689      mixLN5    gengamma       36.073046          0.001996          0.001996        1.397706e-82                                 none                           none
+          svc_B  864     lognorm     lognorm        1.148697          0.013972          0.069860        2.671308e-04                               mixLN5                           none
+band_le24_05-07  233      mixLN5    gengamma        3.933796          0.003992          0.003992        5.026786e-14                                 none                           none
+band_le24_08-09 1030      mixLN2    gengamma       29.841318          0.001996          0.001996        8.677901e-59                                 none                           none
+band_le24_10-11  426      mixLN2     weibull        9.572622          0.001996          0.001996        9.526454e-21                                 none                           none
+band_le24_12-15  476      mixLN2      burr12        2.033575          0.001996          0.001996        5.058594e-04                                 none                           none
+band_le24_16-20  332      mixLN2      burr12        1.984396          0.001996          0.003992        1.741248e-07                               mixLN4                           none
+band_le24_21-04   56      mixLN2   exponweib        1.553268          0.003992          0.007984        7.062207e-04 mixLN2;mixLN3;mixLN4;mixLN5;gengamma                       gengamma
+band_long_05-07  233      mixLN5    gengamma        3.933796          0.003992          0.003992        5.026786e-14                                 none                           none
+band_long_08-09 1035      mixLN3      burr12       46.289486          0.001996          0.001996        1.659266e-96                                 none                           none
+band_long_10-11  427      mixLN2      burr12       10.091251          0.001996          0.001996        1.521118e-21                                 none                           none
+band_long_12-15  477      mixLN2      burr12        2.207997          0.001996          0.001996        2.938647e-04                                 none                           none
+band_long_16-20  338      mixLN2      burr12        2.286687          0.001996          0.001996        5.151057e-05                               mixLN5                           none
+band_long_21-04   67      mixLN3     weibull        1.481051          0.001996          0.003992        3.555536e-04                        mixLN4;mixLN5                           none
+done in 1201 s

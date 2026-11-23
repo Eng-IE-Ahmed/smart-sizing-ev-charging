@@ -1,0 +1,118 @@
+check,value,expected_text,source,document,required,found,status
+sessions in the data,2953,"2,953",data/raw (count),report,True,True,PASS
+sessions in the data,2953,"2,953",data/raw (count),slides,True,True,PASS
+sessions in the data,2953,"2,953",data/raw (count),paper,True,True,PASS
+weekdays used,65,65 weekdays,engine NDAYS / r5_daily_counts.csv,report,True,True,PASS
+weekdays used,65,65 weekdays,engine NDAYS / r5_daily_counts.csv,slides,True,True,PASS
+weekdays used,65,65 weekdays,engine NDAYS / r5_daily_counts.csv,paper,True,True,PASS
+c* pooled at +30%,45,\b45 chargers,phase3/p3_frontier.csv,report,True,True,PASS
+c* pooled at +30%,45,\b45 chargers,phase3/p3_frontier.csv,slides,True,True,PASS
+c* pooled at +30%,45,\b45 chargers,phase3/p3_frontier.csv,paper,True,True,PASS
+c* design day at +30%,47,\b47\b,phase3/p3_frontier.csv,report,True,True,PASS
+c* design day at +30%,47,\b47\b,phase3/p3_frontier.csv,slides,True,True,PASS
+c* design day at +30%,47,\b47\b,phase3/p3_frontier.csv,paper,True,True,PASS
+growth limit pooled,1.56,(\+56%|1.56),phase1r/r6_growth_limit.csv,report,True,True,PASS
+growth limit pooled,1.56,(\+56%|1.56),phase1r/r6_growth_limit.csv,slides,True,True,PASS
+growth limit pooled,1.56,(\+56%|1.56),phase1r/r6_growth_limit.csv,paper,True,True,PASS
+growth limit design day,1.46,(46%|1.46),phase1r/r6_growth_limit.csv,report,True,True,PASS
+growth limit design day,1.46,(46%|1.46),phase1r/r6_growth_limit.csv,slides,True,True,PASS
+growth limit design day,1.46,(46%|1.46),phase1r/r6_growth_limit.csv,paper,True,True,PASS
+P15 at 45 (n = 200),0.0073141290370053,0\.731%,phase5/p5_summary.csv,report,True,True,PASS
+P15 at 45 (n = 200),0.0073141290370053,0\.731%,phase5/p5_summary.csv,slides,True,True,PASS
+P15 at 45 (n = 200),0.0073141290370053,0\.731%,phase5/p5_summary.csv,paper,True,True,PASS
+upper 95% at 45,0.0079802823329446,0\.798%,phase5/p5_summary.csv,report,True,True,PASS
+upper 95% at 45,0.0079802823329446,0\.798%,phase5/p5_summary.csv,slides,True,True,PASS
+upper 95% at 45,0.0079802823329446,0\.798%,phase5/p5_summary.csv,paper,True,True,PASS
+P15 at 44,0.010390398497376,1\.039%,phase5/p5_summary.csv,report,True,True,PASS
+P15 at 44,0.010390398497376,1\.039%,phase5/p5_summary.csv,slides,True,True,PASS
+P15 at 44,0.010390398497376,1\.039%,phase5/p5_summary.csv,paper,True,True,PASS
+FlexSim upper at 45 (+30%),0.0097836510911649,0\.978%,flexsim/d5_compare.csv,report,True,True,PASS
+FlexSim upper at 45 (+30%),0.0097836510911649,0\.978%,flexsim/d5_compare.csv,slides,True,True,PASS
+FlexSim upper at 45 (+30%),0.0097836510911649,0\.978%,flexsim/d5_compare.csv,paper,True,True,PASS
+stage-2 replications for 44,1400,"1,400",phase5/p5_feasibility.csv,report,True,True,PASS
+stage-2 replications for 44,1400,"1,400",phase5/p5_feasibility.csv,slides,True,True,PASS
+stage-2 replications for 44,1400,"1,400",phase5/p5_feasibility.csv,paper,True,True,PASS
+stage-2 lower bound for 44,0.0102648949252553,1\.026%,phase5/p5_feasibility.csv,report,True,True,PASS
+stage-2 lower bound for 44,0.0102648949252553,1\.026%,phase5/p5_feasibility.csv,slides,False,False,n/a
+stage-2 lower bound for 44,0.0102648949252553,1\.026%,phase5/p5_feasibility.csv,paper,True,True,PASS
+frontier 1.0..2.0,"[36, 39, 42, 45, 48, 51, 54, 56, 59, 62, 65]","36,\ 39,\ 42,\ 45,\ 48,\ 51,\ 54,\ 56,\ 59,\ 62\ and\ 65",phase3/p3_frontier.csv,report,False,False,n/a
+frontier 1.0..2.0,"[36, 39, 42, 45, 48, 51, 54, 56, 59, 62, 65]","36,\ 39,\ 42,\ 45,\ 48,\ 51,\ 54,\ 56,\ 59,\ 62\ and\ 65",phase3/p3_frontier.csv,slides,False,False,n/a
+frontier 1.0..2.0,"[36, 39, 42, 45, 48, 51, 54, 56, 59, 62, 65]","36,\ 39,\ 42,\ 45,\ 48,\ 51,\ 54,\ 56,\ 59,\ 62\ and\ 65",phase3/p3_frontier.csv,paper,True,True,PASS
+frontier key cells,"[36, 39, 42, 45, 48, 51, 54, 56, 59, 62, 65]","36 today, 45 at \+30%, 54 at \+60%, 65 at \+100%",phase3/p3_frontier.csv,report,True,True,PASS
+frontier key cells,"[36, 39, 42, 45, 48, 51, 54, 56, 59, 62, 65]","36 today, 45 at \+30%, 54 at \+60%, 65 at \+100%",phase3/p3_frontier.csv,slides,True,True,PASS
+frontier key cells,"[36, 39, 42, 45, 48, 51, 54, 56, 59, 62, 65]","36 today, 45 at \+30%, 54 at \+60%, 65 at \+100%",phase3/p3_frontier.csv,paper,False,False,n/a
+saving P1-60 full compliance,11,\b11\b,phase3/p3_policy_savings.csv,report,True,True,PASS
+saving P1-60 full compliance,11,\b11\b,phase3/p3_policy_savings.csv,slides,True,True,PASS
+saving P1-60 full compliance,11,\b11\b,phase3/p3_policy_savings.csv,paper,True,True,PASS
+saving P1-60 at 50% compliance,7,\b7 (if half|with half|chargers are saved),phase3/p3_policy_savings.csv,report,True,True,PASS
+saving P1-60 at 50% compliance,7,\b7 (if half|with half|chargers are saved),phase3/p3_policy_savings.csv,slides,False,False,n/a
+saving P1-60 at 50% compliance,7,\b7 (if half|with half|chargers are saved),phase3/p3_policy_savings.csv,paper,True,True,PASS
+saving P1-30,13,\b13 \[,phase3/p3_policy_savings.csv,report,True,True,PASS
+saving P1-30,13,\b13 \[,phase3/p3_policy_savings.csv,slides,True,True,PASS
+saving P1-30,13,\b13 \[,phase3/p3_policy_savings.csv,paper,True,True,PASS
+idle share (v2 pairs),0.5671682347142961,56\.7%,phase3/p3_policy_assumptions.json,report,True,True,PASS
+idle share (v2 pairs),0.5671682347142961,56\.7%,phase3/p3_policy_assumptions.json,slides,True,True,PASS
+idle share (v2 pairs),0.5671682347142961,56\.7%,phase3/p3_policy_assumptions.json,paper,True,True,PASS
+rescaled gaps K-S p,0.4471057884231537,0\.447,phase1r/fit_gaps.csv,report,True,True,PASS
+rescaled gaps K-S p,0.4471057884231537,0\.447,phase1r/fit_gaps.csv,slides,True,True,PASS
+rescaled gaps K-S p,0.4471057884231537,0\.447,phase1r/fit_gaps.csv,paper,True,True,PASS
+rescaled gaps AD p,0.311377245508982,0\.311,phase1r/fit_gaps.csv,report,True,True,PASS
+rescaled gaps AD p,0.311377245508982,0\.311,phase1r/fit_gaps.csv,slides,True,True,PASS
+rescaled gaps AD p,0.311377245508982,0\.311,phase1r/fit_gaps.csv,paper,True,True,PASS
+validation mean occupancy,0.1849081494034461,"\+0\.18\ \[\-0\.17,\ 0\.54\]",phase1r/validation_v2.csv,report,True,True,PASS
+validation mean occupancy,0.1849081494034461,"\+0\.18\ \[\-0\.17,\ 0\.54\]",phase1r/validation_v2.csv,slides,True,True,PASS
+validation mean occupancy,0.1849081494034461,"\+0\.18\ \[\-0\.17,\ 0\.54\]",phase1r/validation_v2.csv,paper,True,True,PASS
+M/M/c Wq (rho 0.85),69.12694587728538,69\.1\ \+/\-\ 5\.4,phase6/vv_v2_mmc.csv,report,True,True,PASS
+M/M/c Wq (rho 0.85),69.12694587728538,69\.1\ \+/\-\ 5\.4,phase6/vv_v2_mmc.csv,slides,False,False,n/a
+M/M/c Wq (rho 0.85),69.12694587728538,69\.1\ \+/\-\ 5\.4,phase6/vv_v2_mmc.csv,paper,True,True,PASS
+value of time,38.8,38\.80,phase6/p6_inputs.json (USDOT Table A-2),report,True,True,PASS
+value of time,38.8,38\.80,phase6/p6_inputs.json (USDOT Table A-2),slides,True,True,PASS
+value of time,38.8,38\.80,phase6/p6_inputs.json (USDOT Table A-2),paper,True,True,PASS
+EMV best (A2),54666.77699132208,54\.7k,phase6/p6_lenses.json,report,True,True,PASS
+EMV best (A2),54666.77699132208,54\.7k,phase6/p6_lenses.json,slides,True,True,PASS
+EMV best (A2),54666.77699132208,54\.7k,phase6/p6_lenses.json,paper,True,True,PASS
+minimax regret value,15902.93758722047,15\.9k,phase6/p6_lenses.json,report,True,True,PASS
+minimax regret value,15902.93758722047,15\.9k,phase6/p6_lenses.json,slides,True,True,PASS
+minimax regret value,15902.93758722047,15\.9k,phase6/p6_lenses.json,paper,True,True,PASS
+minimax cost worst case,65063.629977345976,65\.1k,phase6/p6_payoff.csv,report,True,True,PASS
+minimax cost worst case,65063.629977345976,65\.1k,phase6/p6_payoff.csv,slides,True,True,PASS
+minimax cost worst case,65063.629977345976,65\.1k,phase6/p6_payoff.csv,paper,True,True,PASS
+EVPI,11140.713596936039,11\.1k,phase6/p6_lenses.json,report,True,True,PASS
+EVPI,11140.713596936039,11\.1k,phase6/p6_lenses.json,slides,True,True,PASS
+EVPI,11140.713596936039,11\.1k,phase6/p6_lenses.json,paper,True,True,PASS
+AHP CR,0.016922921943863346,0\.017,phase6/p6_ahp.json,report,True,True,PASS
+AHP CR,0.016922921943863346,0\.017,phase6/p6_ahp.json,slides,True,True,PASS
+AHP CR,0.016922921943863346,0\.017,phase6/p6_ahp.json,paper,True,True,PASS
+AHP best score,0.9772406495549714,0\.977,phase6/p6_ahp.json,report,True,True,PASS
+AHP best score,0.9772406495549714,0\.977,phase6/p6_ahp.json,slides,True,True,PASS
+AHP best score,0.9772406495549714,0\.977,phase6/p6_ahp.json,paper,True,True,PASS
+Hurwicz switch A3/A4,0.43117956813181035,0\.431,phase6/p6_lenses.json,report,True,True,PASS
+Hurwicz switch A3/A4,0.43117956813181035,0\.431,phase6/p6_lenses.json,slides,False,False,n/a
+Hurwicz switch A3/A4,0.43117956813181035,0\.431,phase6/p6_lenses.json,paper,True,True,PASS
+VoT switch A4/A2,33.67566835735077,33\.68,phase6/p6_lenses.json,report,True,True,PASS
+VoT switch A4/A2,33.67566835735077,33\.68,phase6/p6_lenses.json,slides,False,False,n/a
+VoT switch A4/A2,33.67566835735077,33\.68,phase6/p6_lenses.json,paper,True,True,PASS
+A0 cost at +100%,233311.3525683485,233k,phase6/p6_payoff.csv,report,True,True,PASS
+A0 cost at +100%,233311.3525683485,233k,phase6/p6_payoff.csv,slides,False,False,n/a
+A0 cost at +100%,233311.3525683485,233k,phase6/p6_payoff.csv,paper,True,True,PASS
+Erlang-C matches DES,10,10 of 11,phase4/p4_mol_vs_des.csv,report,False,False,n/a
+Erlang-C matches DES,10,10 of 11,phase4/p4_mol_vs_des.csv,slides,False,False,n/a
+Erlang-C matches DES,10,10 of 11,phase4/p4_mol_vs_des.csv,paper,True,True,PASS
+MOL 1% over-sizing range,"(np.float64(5.0), np.float64(8.0))",5-8 chargers,phase4/p4_mol_vs_des.csv,report,False,False,n/a
+MOL 1% over-sizing range,"(np.float64(5.0), np.float64(8.0))",5-8 chargers,phase4/p4_mol_vs_des.csv,slides,False,False,n/a
+MOL 1% over-sizing range,"(np.float64(5.0), np.float64(8.0))",5-8 chargers,phase4/p4_mol_vs_des.csv,paper,True,True,PASS
+bootstrap input share,0.05772575787285663,5\.8%,phase3/p3_boot_decomposition.json,report,False,False,n/a
+bootstrap input share,0.05772575787285663,5\.8%,phase3/p3_boot_decomposition.json,slides,False,False,n/a
+bootstrap input share,0.05772575787285663,5\.8%,phase3/p3_boot_decomposition.json,paper,True,True,PASS
+bootstrap c* set,"['44', '45', '46']","44, 45 or 46",phase3/p3_boot_decomposition.json,report,True,True,PASS
+bootstrap c* set,"['44', '45', '46']","44, 45 or 46",phase3/p3_boot_decomposition.json,slides,False,False,n/a
+bootstrap c* set,"['44', '45', '46']","44, 45 or 46",phase3/p3_boot_decomposition.json,paper,True,True,PASS
+max observed occupancy,35,35 of 52,paper/paper_numbers.json,report,False,False,n/a
+max observed occupancy,35,35 of 52,paper/paper_numbers.json,slides,False,False,n/a
+max observed occupancy,35,35 of 52,paper/paper_numbers.json,paper,True,True,PASS
+median session idle share,0.5560451296457305,55\.6%,paper/paper_numbers.json,report,False,False,n/a
+median session idle share,0.5560451296457305,55\.6%,paper/paper_numbers.json,slides,False,False,n/a
+median session idle share,0.5560451296457305,55\.6%,paper/paper_numbers.json,paper,True,True,PASS
+no author placeholders,0,"none of [ID], [email], [Department, University], [names]",report/authors.json,report,True,True,PASS
+no author placeholders,0,"none of [ID], [email], [Department, University], [names]",report/authors.json,slides,True,True,PASS
+no author placeholders,0,"none of [ID], [email], [Department, University], [names]",report/authors.json,paper,True,True,PASS

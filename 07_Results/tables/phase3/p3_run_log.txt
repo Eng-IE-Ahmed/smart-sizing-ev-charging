@@ -1,0 +1,122 @@
+﻿=== task grid 14:15:51
+ arrivals   m  c_star  c_star_mean  c_star_lower  P15_upper_at_52  feasible_52
+designday 1.0    38.0         37.0          37.0         0.000000         True
+designday 1.1    41.0         41.0          40.0         0.000051         True
+designday 1.2    44.0         44.0          43.0         0.000410         True
+designday 1.3    47.0         47.0          46.0         0.001189         True
+designday 1.4    50.0         50.0          49.0         0.004563         True
+designday 1.5    53.0         53.0          52.0         0.012411        False
+designday 1.6    56.0         56.0          55.0         0.027496        False
+designday 1.7    60.0         59.0          59.0         0.053499        False
+designday 1.8    63.0         62.0          61.0         0.092133        False
+designday 1.9    66.0         65.0          65.0         0.136960        False
+designday 2.0     NaN          NaN           NaN         0.184105        False
+   pooled 1.0    36.0         36.0          35.0         0.000000         True
+   pooled 1.1    39.0         39.0          38.0         0.000071         True
+   pooled 1.2    42.0         42.0          41.0         0.000048         True
+   pooled 1.3    45.0         45.0          44.0         0.000521         True
+   pooled 1.4    48.0         47.0          47.0         0.001685         True
+   pooled 1.5    51.0         50.0          50.0         0.004622         True
+   pooled 1.6    54.0         53.0          53.0         0.013676        False
+   pooled 1.7    56.0         56.0          55.0         0.028301        False
+   pooled 1.8    59.0         59.0          58.0         0.051840        False
+   pooled 1.9    62.0         62.0          61.0         0.084546        False
+   pooled 2.0    65.0         65.0          64.0         0.127002        False
+task grid done in 34 s
+=== task policy 14:16:28
+  m   policy  c_star  chargers_saved_vs_P0  saved_CI95_lo  saved_CI95_hi  util_at_cstar
+1.3       P0      45                     0            0.0            0.0       0.323009
+1.3    P1-30      32                    13           13.0           14.0       0.222507
+1.3    P1-60      34                    11           10.0           11.0       0.231821
+1.3   P1-120      38                     7            7.0            8.0       0.242634
+1.3 P2-cap4h      36                     9            8.0            9.0       0.203022
+1.3 P3-p0.25      41                     4            4.0            5.0       0.314106
+1.3 P3-p0.50      38                     7            7.0            8.0       0.295062
+1.3 P3-p0.75      36                     9            9.0           10.0       0.265029
+1.6       P0      54                     0            0.0            0.0       0.331230
+1.6    P1-30      38                    16           16.0           17.0       0.231130
+1.6    P1-60      41                    13           13.0           14.0       0.236774
+1.6   P1-120      45                     9            9.0           10.0       0.252500
+1.6 P2-cap4h      43                    11           10.0           11.0       0.208816
+1.6 P3-p0.25      49                     5            5.0            6.0       0.323440
+1.6 P3-p0.50      45                     9            8.0            9.0       0.306876
+1.6 P3-p0.75      42                    12           11.0           12.0       0.280869
+task policy done in 111 s
+=== task peak 14:18:21
+  m variant  c_star_spread  c_star_base  chargers_saved
+1.3       a             45           45               0
+1.3       b             45           45               0
+1.6       a             54           54               0
+1.6       b             54           54               0
+task peak done in 9 s
+=== task boot 14:18:33
+{
+ "P15_c45_grand_mean": 0.006509037106039557,
+ "P15_c45_boot_mean_2p5": 0.003954716425850651,
+ "P15_c45_boot_mean_97p5": 0.009708419157880588,
+ "var_simulation_per_rep": 2.1147396225351566e-05,
+ "var_between_boot_means": 2.3529050382416464e-06,
+ "var_input_component": 1.2955352269740682e-06,
+ "share_input_of_total_per_rep": 0.05772575787285663,
+ "share_boot_inputs_with_mean_P15_c45_gt_1pct": 0.02,
+ "cstar_distribution": {
+  "44": 13,
+  "45": 26,
+  "46": 11
+ }
+}
+task boot done in 9 s
+=== task shape 14:18:44
+  m      shape  c_star
+1.3 conc_07_10      47
+1.3    uniform      45
+1.6 conc_07_10      59
+1.6    uniform      54
+task shape done in 10 s
+=== task outage 14:18:57
+                                                      case  c_star  margin
+                                        fixed outage k = 1      46       1
+                                        fixed outage k = 2      47       2
+                                        fixed outage k = 3      48       3
+random failures MTBF 720 h, MTTR 24 h (availability 0.968)      46       1
+random failures MTBF 720 h, MTTR 72 h (availability 0.909)      50       5
+task outage done in 13 s
+=== task renege 14:19:12
+  m  patience_min  c  n  lost_share_mean  lost_share_upper  P15_served_mean
+1.3            30 42 60          0.00872           0.00968          0.00466
+1.3            30 44 60          0.00434           0.00507          0.00245
+1.3            30 45 60          0.00303           0.00362          0.00183
+1.3            30 46 60          0.00211           0.00259          0.00130
+1.3            30 48 60          0.00096           0.00127          0.00064
+1.3            30 52 60          0.00013           0.00025          0.00012
+1.3            60 42 60          0.00614           0.00698          0.00983
+1.3            60 44 60          0.00297           0.00358          0.00509
+1.3            60 45 60          0.00202           0.00250          0.00370
+1.3            60 46 60          0.00136           0.00175          0.00273
+1.3            60 48 60          0.00050           0.00072          0.00141
+1.3            60 52 60          0.00007           0.00016          0.00023
+1.6            30 42 60          0.06177           0.06438          0.02963
+1.6            30 44 60          0.04220           0.04441          0.02196
+1.6            30 45 60          0.03427           0.03631          0.01840
+1.6            30 46 60          0.02755           0.02936          0.01518
+1.6            30 48 60          0.01694           0.01841          0.01023
+1.6            30 52 60          0.00550           0.00633          0.00380
+1.6            60 42 60          0.05012           0.05247          0.06005
+1.6            60 44 60          0.03312           0.03509          0.04389
+1.6            60 45 60          0.02645           0.02824          0.03687
+1.6            60 46 60          0.02082           0.02241          0.03056
+1.6            60 48 60          0.01227           0.01352          0.02043
+1.6            60 52 60          0.00361           0.00426          0.00748
+task renege done in 6 s
+=== task sens 14:19:21
+      service  arrivals  c_star validation
+    band_long    pooled      45       PASS
+band_long_opt    pooled      45       PASS
+         band    pooled      44       FAIL
+           AB    pooled      43       FAIL
+     mixA_lnB    pooled      43       FAIL
+     jointGMM    pooled      44       FAIL
+    band_long designday      47       PASS
+band_long_opt designday      47       PASS
+task sens done in 0 s
+=== all done 14:19:23

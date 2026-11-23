@@ -1,0 +1,17 @@
+{
+ "_note": "Single source of the author block (Directives , ). Names only (no IDs, no e-mails, user decision 17 Nov). Spellings are the team's transliterations; edit here, then re-run scripts/d7_build_report.py, d7_build_slides.py and d7_build_paper.py. CRediT roles are a draft for the team to confirm.",
+ "course": "IE 3753 Decision Analysis and Simulation",
+ "students": [
+  {"name": "Ahmed Khalid", "credit": "Conceptualization, Methodology, Software, Formal analysis, Writing - original draft"},
+  {"name": "Hossam Bakhashwain", "credit": "Investigation, Software (FlexSim model), Validation, Writing - review & editing"},
+  {"name": "Ali Al-Qarm", "credit": "Data curation, Validation, Visualization, Writing - review & editing"}
+ ],
+ "supervisor": {"name": "Dr. Omar Sharif Sorata", "paper_name": "Omar Sharif Sorata", "credit": "Supervision, Methodology, Writing - review & editing"},
+ "university": "Islamic University of Madinah",
+ "faculty": "Faculty of Engineering",
+ "department": "Department of Industrial Engineering",
+ "affiliation": "Department of Industrial Engineering, Faculty of Engineering, Islamic University of Madinah, Madinah, Saudi Arabia",
+ "affiliation_source": "https://iu.edu.sa/faculty-of-engineering-0 (English faculty page: 'Faculty of Engineering'; sidebar 'Department of Industrial Engineering'), read 2026-11-17",
+ "corresponding_author": "Ahmed Khalid",
+ "date": "25 November 2026"
+}

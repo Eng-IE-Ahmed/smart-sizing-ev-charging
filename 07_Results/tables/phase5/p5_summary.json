@@ -1,0 +1,19 @@
+{
+ "n_reps": 200,
+ "crn": "default_rng([r,1]) arrivals, [r,2] stays, [r,3] P3 compliance; r = 1..200 in every scenario",
+ "bonferroni_intervals": 26,
+ "conf_each": 0.9980769230769231,
+ "feasibility_systems": 9,
+ "alpha_each_one_sided": 0.005555555555555556,
+ "feasibility": {
+  "pooled c=44": "undetermined",
+  "pooled c=45": "feasible",
+  "pooled c=46": "feasible",
+  "pooled c=47": "feasible",
+  "pooled c=48": "feasible",
+  "designday c=46": "infeasible",
+  "designday c=47": "feasible",
+  "designday c=48": "feasible",
+  "designday c=49": "feasible"
+ }
+}

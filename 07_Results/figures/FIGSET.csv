@@ -1,0 +1,26 @@
+file,source,caption
+Fig01_conceptual_model.png,new (d7_figures.py),Conceptual model: activity cycle diagram
+Fig02_process_flow.png,new,System process flow and where the idle policies act
+Fig03_flexsim_3d.png,flexsim/screenshots/G01_layout_3D.png + D5_policy_P1-30_m1.3_c32.png,FlexSim 3D view
+Fig03b_flexsim_dashboard.png,flexsim/screenshots/G07b_dashboard_seconds_c45.png (bottom row crop),FlexSim dashboard: charger utilisation and arrivals/departures per hour
+Fig03c_flexsim_clear.png,G01_layout_3D.png (3D view crop) + G07b dashboard (arrivals/departures panel),"FlexSim model, readable: layout with numbered objects and one dashboard panel"
+Fig04_daily_arrivals.png,new from results/phase1r/r5_daily_counts.csv,Daily arrivals over time
+Fig05_nhpp_rates.png,new from data/derived/rates_designday.csv,NHPP rate profile
+Fig06_rescaled_gaps.png,figures/phase1r/r1_fit_gaps.png,Arrival process: rescaled inter-arrival gaps vs Exp(1) (NHPP check)
+Fig07_stay_ecdf.png,new from engine band pools,Stay ECDF by arrival band
+Fig07b_service_fits.png,figures/phase1r/r1_fit_service.png (band_long panels),Service-time histograms with the two best fitted distributions per arrival band
+Fig08_idle_time.png,figures/phase1/p1_6_idle_hist.png,"Idle time after charging ends (v1 pool; 56.9% of plug-in hours, 56.7% in the v2 pool)"
+Fig09_validation_profile.png,figures/phase4/p4_offered_load.png,"Validation: occupancy by time of day, data vs DES vs Mt/G/inf"
+Fig10_P15_vs_c.png,figures/phase1r/r6_p15_vs_c.png,"P(wait > 15 min) vs chargers at +30%, mean and upper 95% bound"
+Fig11_heatmap_P15.png,figures/phase3/p3_heat_P15upper.png,Sizing heat-map: upper 95% bound of P(wait > 15 min)
+Fig12_frontier.png,figures/phase3/p3_frontier.png,Feasibility frontier c*(m) with 95% band
+Fig13_policy_savings.png,figures/phase3/p3_policy_savings.png,Chargers saved by idle-management policies
+Fig14a_payoff_regret.png,figures/phase6/p6_payoff_regret.png,Payoff (annual cost) and regret tables
+Fig14b_ahp.png,figures/phase6/p6_ahp.png,AHP weights and weight sensitivity
+FigS1_trace_check.png,figures/flexsim/fig_b3_trace_check.png,"FlexSim = engine, car by car (trace mode)"
+FigS2_flexsim_vs_engine.png,figures/flexsim/fig_d5_flexsim_vs_engine.png,FlexSim confirmation of the key cells
+FigS3_feasibility.png,figures/phase5/p5_feasibility.png,Feasibility check with Bonferroni bounds
+FigS4_mol_vs_des.png,figures/phase4/p4_mol_vs_des.png,Analytic sizing rules vs the DES frontier
+FigS5_prob_sens.png,figures/phase6/p6_prob_sens.png,EMV vs the probability of high growth
+FigS6_decision_tree.png,figures/phase6/p6_decision_tree.png,Decision tree
+FigS7_paired_diffs.png,figures/phase5/p5_paired_diffs.png,Paired CRN differences

@@ -1,0 +1,20 @@
+test,value,p
+days,65.0,
+mean arrivals per weekday,39.646153846153844,
+variance,25.700961538461538,
+mean Mon (n = 12),39.916666666666664,
+mean Tue (n = 13),42.23076923076923,
+mean Wed (n = 13),41.69230769230769,
+mean Thu (n = 13),39.84615384615385,
+mean Fri (n = 14),34.92857142857143,
+one-way ANOVA F,5.722848346076726,0.0005715163507899695
+Kruskal-Wallis H,17.526219532605104,0.0015269258807836202
+Levene (median) W,0.02946484084739849,0.9982791605155142
+index of dispersion s2/mean,0.6482586340706248,
+"dispersion chi2 (df = n-1), lower-tail p",41.488552580519986,0.013004383073595666
+"dispersion chi2 (df = n-1), upper-tail p",41.488552580519986,0.9869956169264044
+"dispersion chi2 (df = n-1), two-sided p",41.488552580519986,0.02600876614719133
+within-DOW index of dispersion (pooled var / mean),0.5005170125222512,
+"within-DOW dispersion chi2 (df = n-5), lower-tail p",30.03102075133507,0.00042535934651703495
+"within-DOW dispersion chi2 (df = n-5), two-sided p",30.03102075133507,0.0008507186930340699
+lag-1 autocorrelation of daily counts,0.03301619732981722,

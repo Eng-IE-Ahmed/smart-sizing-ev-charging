@@ -1,0 +1,6 @@
+case,c_star,margin
+fixed outage k = 1,46,1
+fixed outage k = 2,47,2
+fixed outage k = 3,48,3
+"random failures MTBF 720 h, MTTR 24 h (availability 0.968)",46,1
+"random failures MTBF 720 h, MTTR 72 h (availability 0.909)",50,5

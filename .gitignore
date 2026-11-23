@@ -1,0 +1,5 @@
+﻿_private/
+__pycache__/
+*.pyc
+~$*
+*_autosave.fsm

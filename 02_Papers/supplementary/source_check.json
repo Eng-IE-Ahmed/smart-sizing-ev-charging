@@ -1,0 +1,115 @@
+{
+ "checked_on": "2026-11-19",
+ "crossref": {
+  "10.1287/trsc.2021.0494": {
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "article_number": "trsc.2021.0494",
+   "published_print": [
+    null
+   ],
+   "published_online": [
+    2023,
+    6,
+    16
+   ],
+   "issued": [
+    2023,
+    6,
+    16
+   ],
+   "container": "Transportation Science"
+  },
+  "10.32604/ee.2026.087166": {
+   "volume": "124",
+   "issue": "1",
+   "page": "1-10",
+   "article_number": null,
+   "published_print": [
+    2027
+   ],
+   "published_online": [
+    2027
+   ],
+   "issued": [
+    2027
+   ],
+   "container": "Energy Engineering"
+  }
+ },
+ "web": {
+  "afdc_proc": {
+   "url": "https://afdc.energy.gov/fuels/electricity_infrastructure_development.html",
+   "status": 200,
+   "figures_found": {
+    "3,500": true,
+    "2,500": true
+   },
+   "archive_url": "http://web.archive.org/web/20240223123807/https://afdc.energy.gov/fuels/electricity_infrastructure_development.html",
+   "archive_timestamp": "20240223123807"
+  },
+  "afdc_om": {
+   "url": "https://afdc.energy.gov/fuels/electricity_infrastructure_maintenance_and_operation.html",
+   "status": 200,
+   "figures_found": {
+    "\\$?400": true
+   },
+   "archive_url": "http://web.archive.org/web/20240125064048/https://afdc.energy.gov/fuels/electricity_infrastructure_maintenance_and_operation.html",
+   "archive_timestamp": "20240125064048"
+  },
+  "cec2026": {
+   "url": "https://www.energy.ca.gov/publications/2026/assembly-bill-2127-third-electric-vehicle-charging-infrastructure-assessment",
+   "status": 200,
+   "figures_found": {
+    "6\\.8 million": true,
+    "2030": true
+   },
+   "archive_url": "http://web.archive.org/web/20261016234558/https://www.energy.ca.gov/publications/2026/assembly-bill-2127-third-electric-vehicle-charging-infrastructure-assessment",
+   "archive_timestamp": "20261016234558"
+  },
+  "acn_site": {
+   "url": "https://ev.caltech.edu/dataset",
+   "status": 200,
+   "figures_found": {
+    "54 EVSEs": true,
+    "Caltech": true
+   },
+   "archive_url": "http://web.archive.org/web/20261021070153/https://ev.caltech.edu/dataset",
+   "archive_timestamp": "20261021070153"
+  }
+ },
+ "fresh_snapshots_2026_11_19": {
+  "https://afdc.energy.gov/fuels/electricity_infrastructure_development.html": {
+   "status": 200,
+   "snapshot": "https://web.archive.org/web/20261119142457/https://afdc.energy.gov/fuels/electricity-infrastructure-development"
+  },
+  "https://afdc.energy.gov/fuels/electricity_infrastructure_maintenance_and_operation.html": {
+   "status": 200,
+   "snapshot": "https://web.archive.org/web/20261119142522/https://afdc.energy.gov/fuels/electricity-infrastructure-maintenance-and-operation"
+  },
+  "https://www.energy.ca.gov/publications/2026/assembly-bill-2127-third-electric-vehicle-charging-infrastructure-assessment": {
+   "status": 200,
+   "snapshot": "https://web.archive.org/web/20261119142634/https://www.energy.ca.gov/publications/2026/assembly-bill-2127-third-electric-vehicle-charging-infrastructure-assessment"
+  },
+  "https://ev.caltech.edu/dataset": {
+   "status": 200,
+   "snapshot": "https://web.archive.org/web/20261119142702/https://ev.caltech.edu/dataset"
+  }
+ },
+ "saaty1990_crossref_D10_1": {
+  "title": "How to make a decision: The analytic hierarchy process",
+  "container": "European Journal of Operational Research",
+  "volume": "48",
+  "issue": "1",
+  "page": "9-26",
+  "issued": [
+   1990,
+   9
+  ],
+  "authors": [
+   "Saaty, Thomas L."
+  ],
+  "abstract_semantic_scholar": false
+ }
+}

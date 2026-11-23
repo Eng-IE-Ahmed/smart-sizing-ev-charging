@@ -1,0 +1,10 @@
+Object current = ownerobject(c);
+Object item = param(1);
+/* D4-B2: next car in FIFO order; record start time and charger id; return its stay (h) */
+Object q = Model.find("ChargeQueue");
+int k = q.served + 1;
+q.served = k;
+Table cars = Table("Cars");
+cars[k][4] = Model.time;
+cars[k][5] = current.chargerId;
+return cars[k][2];
